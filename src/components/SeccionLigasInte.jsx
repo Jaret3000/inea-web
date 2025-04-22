@@ -169,28 +169,33 @@ function SeccionLigasInte() {
     <>
       <style jsx global>{`
         .custom-dots {
-          bottom: -30px;
-          display: flex;
-          justify-content: center;
+          position: relative;
+          bottom: -25px !important;
+          display: flex !important;
+          justify-content: center !important;
           width: 100%;
           padding: 0;
           margin: 0;
         }
+      
         .custom-dots li {
           margin: 0 4px;
           display: inline-block;
         }
+      
         .custom-dots li button {
           border: none;
           background: none;
           padding: 0;
         }
+      
         .custom-dots li button:before {
           font-size: 12px;
           color: #ccc;
           opacity: 1;
           transition: all 0.3s ease;
         }
+      
         .custom-dots li.slick-active button:before {
           color: #611232;
           transform: scale(1.2);
@@ -216,9 +221,8 @@ function SeccionLigasInte() {
         
         /* Estilos para mobile */
         @media (max-width: 767px) {
-          .slick-slider {
-            padding-bottom: 30px;
-          }
+        .slick-slider {
+          padding-bottom: 30px;
         }
         
         .carousel-card {
