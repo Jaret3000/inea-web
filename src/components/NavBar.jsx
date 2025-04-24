@@ -152,7 +152,7 @@ const Navbar = () => {
               </div>
 
               {/*Boton para desplegable hamburguesa */}
-              <div className="md:hidden flex items-end mr-[15px]">
+              <div className="md:hidden flex items-end mr-[8vw]">
                 <button
                   className="inline-flex items-center w-auto h-auto rounded-md text-white hover:text-[#E4CDA7]
                  focus:outline-none focus:ring-2 p-2 focus:ring-inset focus:ring-[#E4CDA7] px-auto"
